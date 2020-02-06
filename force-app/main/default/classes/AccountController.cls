@@ -1,5 +1,5 @@
 public class AccountController {
-    //my first commit
+    
     @AuraEnabled
     public static List<Account> getAccounts()
     {

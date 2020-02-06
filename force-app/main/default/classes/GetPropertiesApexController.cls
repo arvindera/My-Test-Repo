@@ -1,6 +1,5 @@
 public class GetPropertiesApexController {
     private final Property__c prop;
-    private number pNum;
     
     public GetPropertiesApexController(ApexPages.StandardController stdController) {
         stdController.addFields(new List<String>{'Beds__c', 'Baths__c', 'Price__c', 'Broker__c', 'Status__c'});
