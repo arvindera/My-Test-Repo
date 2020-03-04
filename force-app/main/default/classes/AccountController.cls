@@ -1,6 +1,7 @@
 public class AccountController {
     //my first commit comment
     // my second commit comment
+    //my third commit comment
     @AuraEnabled
     public static List<Account> getAccounts()
     {
